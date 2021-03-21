@@ -1,9 +1,7 @@
 <?php
 
-class Property
+class Property extends PipModel
 {
-    use HasId;
-
     /** @var bool */
     protected $isNullable = false;
 

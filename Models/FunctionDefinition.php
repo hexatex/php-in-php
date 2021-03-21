@@ -1,6 +1,5 @@
 <?php
 
-class FunctionDefinition
+class FunctionDefinition extends PipModel
 {
-    use HasId;
 }

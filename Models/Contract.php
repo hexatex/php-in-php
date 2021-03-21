@@ -1,9 +1,7 @@
 <?php
 
-class Contract
+class Contract extends PipModel
 {
-    use HasId;
-
     /** @var Property[] */
     protected  $properties = [];
 
