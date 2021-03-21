@@ -11,7 +11,7 @@ class ResourceProperty extends PipModel
     /** @var Property|null */
     protected $property;
 
-    /** @var null}CallableType */
+    /** @var null|CallableType */
     protected $callable;
 
     public function getProperty(): ?Property
