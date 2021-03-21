@@ -1,30 +1,17 @@
 <?php
 
-class Property extends PipModel
+class Property extends VariableDefinition
 {
-    /** @var bool */
-    protected $isNullable = false;
+    /** @var Contract|null */
+    protected $contract;
 
-    /** @var Contracts\Type */
-    protected $type;
-
-    public function getNullable(): bool
+    public function getContract(): ?Contract
     {
-        return $this->isNullable;
+        return $this->contract;
     }
 
-    public function setIsNullable(bool $isNullable): void
+    public function setContract(Contract $contract): void
     {
-        $this->isNullable = $isNullable;
-    }
-
-    public function getType(): Contracts\Type
-    {
-        return $this->type;
-    }
-
-    public function setType(Contracts\Type $type): void
-    {
-        $this->type = $type;
+        $this->contract = $contract;
     }
 }
