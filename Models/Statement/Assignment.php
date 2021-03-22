@@ -1,6 +1,5 @@
 <?php
 
-class Assignment extends PipModel implements Statement
+class Assignment extends Statement
 {
-    use IsStatement;
 }

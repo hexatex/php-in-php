@@ -2,6 +2,8 @@
 
 class FunctionDefinition extends PipModel implements Contracts\CallableType
 {
+    use HasLogic;
+
     /** @var string|null */
     protected $name;
 

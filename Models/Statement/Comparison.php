@@ -1,8 +1,5 @@
 <?php
 
-class Comparison extends PipModel implements Statement
+class Comparison extends Statement
 {
-    use IsStatement;
-
-    
 }

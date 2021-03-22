@@ -1,6 +1,6 @@
 <?php
 
-trait IsStatement
+abstract class Statement extends PipModel
 {
     /** @var TypeDefinition|null */
     protected $resultType;
